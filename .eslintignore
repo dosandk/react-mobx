@@ -1,0 +1,6 @@
+*.spec.js
+webpack
+dist
+./node_modules
+*.md
+./node_modules/mobx-react/**

@@ -14,6 +14,13 @@ npm install
 npm start
 ``` 
 
+## Build project
+
+To build project please use next command:  
+```
+npm build
+``` 
+
 *Note:* Webpack dev server will be run on port 3000
 
 ##  Run Flow
@@ -27,7 +34,7 @@ After running flow with init the first time, run:
 npm run flow
 ```
 
-##  Run Eslint
+##  Run linter
 To run "eslint" please use next command:  
 ```
 npm run lint
@@ -46,3 +53,5 @@ npm run lint
 
 * Commit messages should include task **"id"** and **task description**: `ID-123 Task description`
 * If commit doesn't corresponds to any task, include next description: `#0000 description about applied changes`
+
+## [TODO] API

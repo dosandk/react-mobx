@@ -2,7 +2,7 @@ var INDENT = 2;
 
 module.exports = {
     root: true,
-
+    parser: 'babel-eslint',
     extends: [
         'eslint:recommended',
         '@eleks/eleks',

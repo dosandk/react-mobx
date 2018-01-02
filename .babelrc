@@ -5,5 +5,5 @@
     "stage-1",
     "flow"
   ],
-  "plugins": ["transform-runtime"]
+  "plugins": ["transform-runtime", "transform-decorators-legacy"]
 }
