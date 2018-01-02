@@ -1,14 +1,36 @@
 {
   "name": "react-mobx",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "eject": "react-scripts eject"
+    "start": "webpack-dev-server --config ./webpack/dev.js",
+    "lint": "eslint ./src/**",
+    "flow": "flow"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react-scripts": "^1.0.17"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@eleks/eslint-config-eleks": "^0.2.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.1.2",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "eslint": "^4.14.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-react": "^7.5.1",
+    "flow-bin": "^0.62.0",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
   }
 }
