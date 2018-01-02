@@ -1,4 +1,4 @@
-### Tech stack
+## Tech stack
 
 * [React](https://facebook.github.io/react/) - A JavaScript library for building user interfaces
 * [MobX](https://mobx.js.org/) - Simple, scalable state management
@@ -6,35 +6,43 @@
 * [Flow](https://flow.org/) - static type checker for javascript
 * [ESLint](https://eslint.org/) - The pluggable linting utility for JavaScript and JSX
 
-### Getting Started
+## Getting Started
 
 To start project please use next command:  
-`npm install`  
-`npm start`  
+```
+npm install
+npm start
+``` 
+
 *Note:* Webpack dev server will be run on port 3000
 
-###  Run Flow
+##  Run Flow
 
-The first time, run: `npm run flow init`
-After running flow with init the first time, run: `npm run flow`
+The first time, run: 
+```
+npm run flow init
+```  
+After running flow with init the first time, run: 
+```
+npm run flow
+```
 
-###  Run Eslint
+##  Run Eslint
 To run "eslint" please use next command:  
-`npm run lint`
+```
+npm run lint
+```
 
-### Git workflow
+## Git workflow
 
 **master** - This branch will be deployed into client environment
 
-#### Branch Naming Convention
+### Branch Naming Convention
 
 **Features** - `feature` branches should be named as `feature/future-id` (eg. `feature/ID-123`)  
 **Bugs** - `issue` branches should be named as `issue/issue-id` (eg. `issue/ID-123`)
 
-#### Commit Message Convention
+### Commit Message Convention
 
-Commit messages should include task "id" and task description:  
-`ID-123 Task description`
-
-If commit does not corresponds to any task, include next description:  
-`#0000 description about applied changes`
+* Commit messages should include task **"id"** and **task description**: `ID-123 Task description`
+* If commit doesn't corresponds to any task, include next description: `#0000 description about applied changes`
