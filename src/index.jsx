@@ -11,14 +11,14 @@ const stores = {
   /* other stores */
 };
 
-const App = () => (
+const Index = () => (
   <Provider {...stores}>
     <Routes />
   </Provider>
 );
 
 const appContainer = document.getElementById('app');
-const renderApp = () => render(<App />, appContainer);
+const renderApp = () => render(<Index />, appContainer);
 
 renderApp();
 enableLogging();

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config ./webpack/webpack.dev.js",
+    "start": "webpack-dev-server --config ./webpack/webpack.dev.js --hot --open",
     "lint": "eslint ./src/**",
     "flow": "flow"
   },
