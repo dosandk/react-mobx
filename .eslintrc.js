@@ -5,7 +5,6 @@ module.exports = {
     parser: 'babel-eslint',
     extends: [
         'eslint:recommended',
-        '@eleks/eleks',
         'plugin:react/recommended'
     ],
 

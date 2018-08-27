@@ -8,6 +8,7 @@ module.exports = {
     './src/app.jsx'
   ],
   target: 'web',
+  mode: 'development',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, '../dist')

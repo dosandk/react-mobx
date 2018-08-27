@@ -1,5 +1,7 @@
-import mainStore from './main-store';
+import counterStore from './counter-store';
+import itemsListStore from './items-list-store';
 
 export {
-  mainStore
+  counterStore,
+  itemsListStore
 };
