@@ -15,9 +15,9 @@ const Home = () => {
       <li>
         <Link to="/counter">Counter</Link>
       </li>
-      <li>
-        <Link to="/items-list">ItemsList</Link>
-      </li>
+      {/*<li>*/}
+      {/*<Link to="/items-list">ItemsList</Link>*/}
+      {/*</li>*/}
     </ul>
     <Route path={'/counter'} component={Counter} />
     <Route path={'/items-list'} component={ItemsList} />
