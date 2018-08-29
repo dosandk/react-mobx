@@ -7,7 +7,7 @@ import ItemsList from '../items-list';
 
 const Home = () => {
   return (<div>
-    <h1>Home Component</h1>
+    <h1>React + MobX + Flow</h1>
     <ul>
       <li>
         <Link to="/">Home</Link>
